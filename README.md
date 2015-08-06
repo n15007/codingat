@@ -90,13 +90,12 @@ def missing_char(str, n):
 def front_back(str):
     if len(str) <= 1:
      return str
-     
-    mid = str[1:-1]
+     mid = str[1:-1]
     return str[len(str)-1] + mid + str[0]
 ```
 
 ### front3
-> 文字列があります。
+> aaaaaa
 ```
 def front3(str):
   front = str[:3]
