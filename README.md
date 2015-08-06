@@ -170,7 +170,7 @@ def array_fount9(nums):
 ```
 
 ### array123
-> ある整数の配置に"1, 2, 3"と続いていたらTrueを出力する。。
+> ある整数の配置に"1, 2, 3"があったらTrueを出力する。。
 ```
 def array123(nums):
   for i in range(len(nums)-2):
